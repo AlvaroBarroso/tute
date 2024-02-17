@@ -90,3 +90,6 @@ with open('transactions.csv', mode='w', newline='') as file:
     writer.writerow(list(transactions[0].keys()))
     for transaction in transactions:
         writer.writerow(list(transaction.values()))
+
+def a():
+    pass
